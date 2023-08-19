@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>XStream</title> 
+    <link rel="stylesheet" href="about.css">
+    <script src="aboutfunctions.js"></script> 
+    <style>
+        h1 a {
+          font-size: 24px;
+          position: absolute;
+          top: -5px; /* Adjust the top positioning as needed */
+          right: -15px; /* Adjust the right positioning as needed */
+          opacity: 0;
+          animation: fadeIn 1.5s ease-in-out forwards;
+          text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+          margin: 5px 20px;
+          color: inherit;
+          text-decoration: none;
+      }
+  </style>
+</head>
+
+<body>
+    <div class="black-top"></div>
+    <header class="Header fade-in">
+        <div class="overlay"></div>
+        <img id="openPanelButton" src="Menu.png" alt="Open Panel">
+        <h1><a href="mainframe.html">XStream</a></h1>
+        <h2>What is Crisislab?</h2>
+        <h3>CRISiSLab, situated at Massey University's Joint Centre for Disaster Research in Wellington, is a state-of-the-art facility bridging technology and human behavior research. 
+            The lab offers cutting-edge resources for experiments, simulations, and technology testing, while fostering collaboration between researchers and students in crisis management exploration. 
+            Its skilled team focuses on AI, big data, decision systems, warnings, telecommunications, and user behavior. 
+            CRISiSLab welcomes partnerships with like-minded individuals and researchers to innovate solutions for crisis management challenges.</h3>
+        <h4>About 2023</h4>
+        <h5>During the inaugural session, an overview of Crisislab's historical background and prior undertakings was provided. 
+            This was followed by an introduction to the proficient Core Team specializing in Seismology, who elucidated the fundamental aspects of tsunamis, encompassing their origins, causal factors, and detection methodologies. 
+            Furthermore, the session included insights from past laureates, who shared their valuable experiences, subsequently acquainting us with the intricacies of the ongoing project. 
+            A practical illustration of the sensor's operational mechanism was also presented, highlighting its ability to discern and visually represent tsunami-related data through graphical representation.</h5>
+        <h6>How The XStream Team has Accomplished this</h6>
+        <h7>A waterproofed sensor is affixed to a 3D-printed weighted platform positioned at the tank's base. 
+            A qwiic cable, originating from the sensor, traverses through a 3D-printed buoy, extending beyond the tank to connect with the main board. 
+            As the sensor is traversed by a passing wave, it registers an escalation in pressure. By leveraging this pressure data, the program computes an approximate wave height. 
+            Upon reaching a predetermined threshold indicative of a potential tsunami threat, an alert tone is activated and an automated notification is dispatched via WhatsApp. 
+            This adaptable system can readily be replicated in practical scenarios by substituting WhatsApp with an appropriate emergency notification framework.</h7>
+            <button id="scrollToTopButton">Scroll to Top</button>
+    </header>
+
+    <div class="side-panel">
+        <ul class="side-panel-buttons">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+        <img id="closePanelButton" class="close-button" src="CloseButton.png" alt="Close Panel">
+    </div>
+</body>
+</html>

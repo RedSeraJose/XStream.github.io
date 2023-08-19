@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>XStream</title> 
+    <link rel="stylesheet" href="contact.css">
+    <script src="contactfunction.js"></script> 
+    <style>
+          h1 a {
+            font-size: 24px;
+            position: absolute;
+            top: -5px; /* Adjust the top positioning as needed */
+            right: -15px; /* Adjust the right positioning as needed */
+            opacity: 0;
+            animation: fadeIn 1.5s ease-in-out forwards;
+            text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+            margin: 5px 20px;
+            color: inherit;
+            text-decoration: none;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="black-top"></div>
+    <header class="Header fade-in">
+        <div class="overlay"></div>
+        <img id="openPanelButton" src="Menu.png" alt="Open Panel">
+        <h1><a href="mainframe.html">XStream</a></h1>
+        <h2>MEET OUR TEAM</h2>
+        <div class="team-member special-member">
+            <img src="TeamMembersPFP/CharlieLloyd.jpg" alt="Team Member 7">
+            <h3>Charlie Lloyd</h3>
+            <p class="member-role">Roles: Leading Teacher</p>
+        </div>
+        <p class="subtext">This is the St Patricks College Silverstream Crisislab Team for 2023</p>
+        <button id="scrollToTopButton">Scroll to Top</button>
+    
+    </header>
+
+    <div class="side-panel">
+        <ul class="side-panel-buttons">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+        <img id="closePanelButton" class="close-button" src="CloseButton.png" alt="Close Panel">
+    </div>
+
+    <section class="team-section">
+        <div class="team-container">
+            <div class="team-member">
+                <img src="TeamMembersPFP/CalebMalskaitis.jpg" alt="Team Member 1">
+                <h3>Caleb Malskaitis</h3>
+                <p class="member-role">Roles: Waterproofing, Testing, Manager</p>
+            </div>
+            <div class="team-member">
+                <img src="TeamMembersPFP/ReubenJha.jpg" alt="Team Member 2">
+                <h3>Reuben Jha</h3>
+                <p class="member-role">Roles: Coding Manager, Presentation</p>
+            </div>
+            <div class="team-member">
+                <img src="TeamMembersPFP/RedSeraJose.jpg" alt="Team Member 3">
+                <h3>Red Sera Jose</h3>
+                <p class="member-role">Roles: Waterproofing, Designing, Testing, Presentation</p>
+            </div>
+            <div class="team-member">
+                <img src="TeamMembersPFP/CallumByrne.jpg" alt="Team Member 4">
+                <h3>Callum Byrne</h3>
+                <p class="member-role">Roles: Presentation, ASM, Testing</p>
+            </div>
+            <div class="team-member">
+                <img src="TeamMembersPFP/LeightonThom.jpg" alt="Team Member 5">
+                <h3>Leighton Thom</h3>
+                <p class="member-role">Roles: Waterproofing, Designing, Presentation, Testing</p>
+            </div>
+            <div class="team-member">
+                <img src="TeamMembersPFP/SethMillar.jpg" alt="Team Member 6">
+                <h3>Seth Millar</h3>
+                <p class="member-role">Roles: Handiwork, Waterproofing, Testing</p>
+            </div>
+            <!-- Add more team members as needed -->
+        </div>
+    </section> 
+
+</body>
+</html>
